@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    gap: 1.5rem;
+    background-color: #fff;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one-green {
+    background-color: green;
+    grid-column: span 4;
+    grid-row: span 2;
+}
+
+.two-yellow {
+    background-color: yellow;
+    grid-column: span 6;
+    grid-row: span 2;
+}
+
+.three-blue {
+    background-color: blue;
+    grid-column: span 4;
+    grid-row: span 1;
+}
+
+.four-red {
+    background-color: red;
+    grid-column: span 6;
+    grid-row: span 1;
+}
+
+.five-brown {
+    background-color: brown;
+    grid-column: span 1;
+    grid-row: span 3;
+}
+
+.six-black {
+    background-color: black;
+    grid-column: span 4;
+    grid-row: span 3;
+}
+
+.seven-purple {
+    background-color: purple;
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+.eight-orange {
+    background-color: orange;
+    grid-column: span 2;
+    grid-row: span 3;
+}
+
+.nine-grey {
+    background-color: grey;
+    grid-column-start: 6;
+    grid-column-end: 9;
+    grid-row: span 1;
+}
